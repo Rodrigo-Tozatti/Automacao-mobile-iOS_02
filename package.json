@@ -1,0 +1,24 @@
+{
+  "name": "automacao-mobile-ios",
+  "version": "1.0.0",
+  "description": "Automação Mobile iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Tozatti/Automacao-mobile-iOS.git"
+  },
+  "author": "Rodrigo Tozatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Tozatti/Automacao-mobile-iOS/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Tozatti/Automacao-mobile-iOS#readme",
+  "devDependencies": {
+    "appium": "^2.11.3",
+    "codeceptjs": "^3.5.11",
+    "webdriverio": "^7.16.4"
+  }
+}
