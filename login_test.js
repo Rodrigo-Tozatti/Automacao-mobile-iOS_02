@@ -1,5 +1,6 @@
 Feature('login');
 
-Scenario('test something',  ({ I }) => {
+Scenario('test configuration',  ({ I }) => {
+    I.wait(5)
 
 });
