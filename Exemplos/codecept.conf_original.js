@@ -12,11 +12,11 @@ exports.config = {
     Appium: {
       appiumV2: true,
       url: 'http://127.0.0.1:4723/', // URL do servidor Appium
-      app: process.env.APP,
+      app: '/Users/rodrigorossetitozatti/Repositorio-Mac/Automacao-mobile-iOS/App-iOS/qazandoapp.app',
       desiredCapabilities: {
-        platformName: process.env.PLATFORM,
-        platformVersion: process.env.VERSION, // Versão do sistema oper
-        deviceName: process.env.DEVICE, // Nome do dispositivo
+        platformName: 'iOS',
+        platformVersion: '16.2', // Versão do sistema oper
+        deviceName: 'iPhone 14 Pro Max', // Nome do dispositivo
         automationName: 'XcUiTest',
       },
       path: '/'
