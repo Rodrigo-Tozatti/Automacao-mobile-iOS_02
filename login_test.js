@@ -1,6 +1,12 @@
-Feature('login');
+Feature('CT001 - Login na plataforma');
 
-Scenario('test configuration',  ({ I }) => {
-    I.wait(5)
+Scenario('Cenário 01 - Realizar login com sucesso',  ({ I }) => {
 
+        I.preecherEmail('username', 'usuario_email')
+
+
+        I.preencherSenha('username', 'usuario_senha')
+
+
+        I.toque('botao_entrar')
 });
