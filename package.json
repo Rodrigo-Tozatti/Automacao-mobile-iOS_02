@@ -4,7 +4,8 @@
   "description": "Automação Mobile iOS",
   "main": "index.js",
   "scripts": {
-    "ios": "PLATFORM=iOS APP='/Users/rodrigorossetitozatti/Repositorio-Mac/Automacao-mobile-iOS/App-iOS/qazandoapp.app' DEVICE='iPhone 14 Pro Max' VERSION=16.2 npx codeceptjs run --steps"
+    "ios": "npx codeceptjs run",
+    "ios_01": "PLATFORM=iOS APP='/Users/rodrigorossetitozatti/Repositorio-Mac/Automacao-mobile-iOS/App-iOS/qazandoapp.app' DEVICE='iPhone 14 Pro Max' VERSION=16.2 npx codeceptjs run --steps"
   },
   "repository": {
     "type": "git",

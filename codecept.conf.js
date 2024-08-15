@@ -1,4 +1,7 @@
-const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
+const {
+  setHeadlessWhen,
+  setCommonPlugins
+} = require('@codeceptjs/configure');
 
 setHeadlessWhen(process.env.HEADLESS);
 setCommonPlugins();
@@ -23,6 +26,8 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js' // Local do arquivo de etapas
+    I: './steps_file.js', // Local do arquivo de etapas
+
+    loginPage: "./pages/login_page.js"
   },
 };
