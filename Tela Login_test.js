@@ -21,5 +21,3 @@ Scenario('Cenário 02 - Realizar login com e-mail errado',  ({ I }) => {
         I.waitForElement('name', 5);
         I.seeElement('name')
 }); 
-
-
